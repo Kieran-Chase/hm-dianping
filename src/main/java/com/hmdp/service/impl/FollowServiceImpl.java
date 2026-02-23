@@ -76,6 +76,7 @@ public class FollowServiceImpl extends ServiceImpl<FollowMapper, Follow> impleme
         return Result.ok(count > 0);
     }
 
+
     @Override
     public Result followCommons(Long id) {
         // 1. 获取当前用户
